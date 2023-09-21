@@ -1,21 +1,24 @@
 .App {
+  position: relative;
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  position: absolute;
+  left: 1em;
+  height: 10vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo { 
+    animation: App-logo-spin infinite 5s linear; 
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: yellowgreen; */
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +39,63 @@
     transform: rotate(360deg);
   }
 }
+.bg-brand{
+  background:#733dd9 !important;
+}
+
+.text-brand{
+  color:#733dd9 !important;
+}
+.boder-dott{
+  border: 1px dotted rgba(128, 128, 128, 0.482) !important;
+}
+.cardImage{
+  width: 30px !important;
+  height: 30px !important;
+}
+.video-info p{
+  padding: 0 7px ;
+}
+.video-react-video , .video-react-video{
+background-image: url(https://img.freepik.com/free-vector/gradient-youtube-banner_23-2149200450.jpg?);}
+/* .App-header[not].show{
+  display: none;
+} */
+
+@media (min-width: 768px){
+  .d-md-block{
+    display: block !important;
+  }
+  .collapse:not(.show) {
+    display:block!important;}
+ 
+  
+}
+@media (max-width: 768px){
+  .d-block{
+    display: block !important;
+  }
+  #menu{
+    display: none;
+  
+  }
+  .App-logo {
+    position: static; 
+    height: 10vmin;
+    pointer-events: none;
+  }
+}
+
+.navmanu{
+  transition: right 3s;
+  display: block !important;
+  border-radius: 1em 0em 0em 1em;
+    padding: 1em;
+    right: 0;
+    background: #733dd9c7;
+    top: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
