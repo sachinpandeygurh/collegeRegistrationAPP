@@ -99,3 +99,11 @@ background-image: url(https://img.freepik.com/free-vector/gradient-youtube-banne
     flex-direction: column;
 }
 
+.react-tel-input input{
+  border: none !important;
+  
+}
+.react-tel-input input:focus{
+  box-shadow: none !important;
+
+}

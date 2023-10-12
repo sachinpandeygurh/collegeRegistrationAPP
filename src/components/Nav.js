@@ -12,11 +12,11 @@ import Model from './Model';
 export function Nav() {
   const [modalShow, setModalShow] = useState(false);
   const [searchmodalShow, setSearchmodalShow] = useState(false);
-  const [showNavbar, setShowNavbar] = useState(false);
+  // const [showNavbar, setShowNavbar] = useState(false);
 
-  const toggleNavbar = () => {
-    setShowNavbar(!showNavbar);
-  };
+  // const toggleNavbar = () => {
+  //   setShowNavbar(!showNavbar);
+  // };
   const openSearchModel = () => {
     setSearchmodalShow(true);
   };
